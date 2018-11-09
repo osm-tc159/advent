@@ -1,0 +1,20 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "sheets": {
+    "macros": [
+      {
+        "menuName": "先頭行を今週月曜へ",
+        "functionName": "forwardToMonday"
+      },
+      {
+        "menuName": "1日目から見る",
+        "functionName": "rewindFirstDay"
+      }
+    ]
+  }
+}
